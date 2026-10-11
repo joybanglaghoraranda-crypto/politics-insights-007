@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B192C"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#94A3B8" fill-opacity="0.22"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect width="1200" height="675" fill="url(#dots)"/>
+  <rect x="50" y="50" width="1100" height="575" rx="6" fill="none" stroke="#334155" stroke-width="2"/>
+  <rect x="50" y="50" width="12" height="575" fill="#2563EB"/>
+  <rect x="95" y="105" width="460" height="42" rx="4" fill="#2563EB" fill-opacity="0.25" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="115" y="132" fill="#F8FAFC" font-family="'Noto Sans Bengali', Inter, sans-serif" font-size="18" font-weight="700">নাগরিক সেবা ও সুশাসন • GOVERNANCE</text>
+  <text x="95" y="235" fill="#FFFFFF" font-family="'Noto Sans Bengali', 'Hind Siliguri', sans-serif" font-size="38" font-weight="700">স্থানীয় সরকার সেবা ও ডিজিটাল পাবলিক ইনফ্রাস্ট্রাকচার</text>
+  <text x="95" y="295" fill="#CBD5E1" font-family="Merriweather, Georgia, serif" font-size="21" font-weight="400">Citizen Service Delivery, Transparency &amp; Civic Accountability</text>
+  <line x1="95" y1="340" x2="680" y2="340" stroke="#334155" stroke-width="2"/>
+  <text x="95" y="535" fill="#94A3B8" font-family="'Noto Sans Bengali', Inter, sans-serif" font-size="18" font-weight="600">পলিটিক্স ইনসাইটস ০০৭ • POLITICS INSIGHTS 007 EDITORIAL GRAPHIC</text>
+  <text x="95" y="568" fill="#64748B" font-family="Inter, sans-serif" font-size="14">SAMPLE DEMONSTRATION VISUAL • OWN EDITORIAL ILLUSTRATION (CC0 / ORIGINAL)</text>
+  
+        <g transform="translate(760, 150)">
+          <rect x="0" y="0" width="340" height="320" rx="8" fill="#0F172A" fill-opacity="0.7" stroke="#475569" stroke-width="1.5"/>
+          <polygon points="170,35 50,95 290,95" fill="none" stroke="#2563EB" stroke-width="3"/>
+          <rect x="75" y="105" width="24" height="145" fill="#64748B"/>
+          <rect x="130" y="105" width="24" height="145" fill="#94A3B8"/>
+          <rect x="185" y="105" width="24" height="145" fill="#94A3B8"/>
+          <rect x="240" y="105" width="24" height="145" fill="#64748B"/>
+          <rect x="45" y="255" width="250" height="16" rx="2" fill="#2563EB"/>
+        </g>
+</svg>

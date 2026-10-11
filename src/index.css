@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: "Noto Sans Bengali", "Hind Siliguri", "Inter", system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #FAF9F6;
+    color: #0F172A;
+    text-rendering: optimizeLegibility;
+  }
+}
+
+/* Custom Editorial Prose Styling for Markdown Article Bodies */
+.article-prose h2 {
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: #0B192C;
+  margin-top: 2rem;
+  margin-bottom: 0.85rem;
+  line-height: 1.35;
+  border-bottom: 1px solid #E2E8F0;
+  padding-bottom: 0.4rem;
+}
+
+.article-prose h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1E293B;
+  margin-top: 1.5rem;
+  margin-bottom: 0.6rem;
+  line-height: 1.4;
+}
+
+.article-prose p {
+  margin-bottom: 1.25rem;
+  line-height: 1.85;
+  color: #1E293B;
+}
+
+.article-prose ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.article-prose ol {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.article-prose li {
+  margin-bottom: 0.5rem;
+  line-height: 1.75;
+}
+
+.article-prose blockquote {
+  border-left: 4px solid #B91C1C;
+  background-color: #F8FAFC;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  color: #334155;
+}
+
+.article-prose blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.article-prose a {
+  color: #991B1B;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.article-prose strong {
+  color: #0F172A;
+  font-weight: 700;
+}
+
+/* Hide scrollbar for breaking news ticker */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

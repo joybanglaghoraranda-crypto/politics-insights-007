@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B192C"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.6" stroke-opacity="0.4"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect x="60" y="60" width="1080" height="510" fill="none" stroke="#B91C1C" stroke-width="3"/>
+  <rect x="60" y="60" width="14" height="510" fill="#DC2626"/>
+  <text x="110" y="160" fill="#F87171" font-family="Inter, sans-serif" font-size="22" font-weight="700" letter-spacing="4">POLITICS INSIGHTS 007 • WWW.POLITICSINSIGHTS007.COM</text>
+  <text x="110" y="265" fill="#FFFFFF" font-family="'Noto Sans Bengali', 'Hind Siliguri', sans-serif" font-size="68" font-weight="800">পলিটিক্স ইনসাইটস ০০৭</text>
+  <text x="110" y="340" fill="#E2E8F0" font-family="Merriweather, Georgia, serif" font-size="40" font-weight="700">Politics Insights 007</text>
+  <line x1="110" y1="380" x2="520" y2="380" stroke="#DC2626" stroke-width="4"/>
+  <text x="110" y="440" fill="#CBD5E1" font-family="'Noto Sans Bengali', sans-serif" font-size="28" font-weight="500">বাংলাদেশ ও বিশ্ব রাজনীতি • নির্বাচন • সরকারি নীতি • অর্থনীতি • কূটনীতি • তথ্যভিত্তিক বিশ্লেষণ</text>
+  <text x="110" y="495" fill="#94A3B8" font-family="Inter, sans-serif" font-size="22" font-weight="500">Evidence-Based Political Journalism, Public Policy &amp; Global Affairs</text>
+</svg>

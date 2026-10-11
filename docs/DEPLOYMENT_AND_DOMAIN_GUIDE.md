@@ -22,7 +22,7 @@ This guide covers:
    git add .
    git commit -m "Initial Phase 1 MVP release for Politics Insights 007"
    git branch -M main
-   git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/politics-insights-007.git
+   git remote add origin https://github.com/joybanglaghoraranda-crypto/politics-insights-007.git
    git push -u origin main
    ```
 
